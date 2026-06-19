@@ -1,6 +1,6 @@
-# Lyra
+# Aether
 
-A desktop system monitoring and management tool built with Go and React. Lyra combines real-time system metrics, an integrated terminal, a file explorer, and a network map into a single frameless application with a cyberpunk-inspired UI.
+A desktop system monitoring and management tool built with Go and React. Aether combines real-time system metrics, an integrated terminal, a file explorer, and a network map into a single frameless application with a cyberpunk-inspired UI.
 
 ![Wails](https://img.shields.io/badge/Wails-v2-blue)
 ![Go](https://img.shields.io/badge/Go-1.23-00ADD8)
@@ -42,8 +42,8 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 Clone the repository and install frontend dependencies:
 
 ```bash
-git clone https://github.com/qViperH/lyra.git
-cd lyra
+git clone https://github.com/qViperH/aether.git
+cd aether
 cd frontend && npm install && cd ..
 ```
 
@@ -66,7 +66,7 @@ The compiled binary is output to `build/bin/`.
 ## Project Structure
 
 ```
-lyra/
+aether/
 ├── main.go                     # App entry point & service wiring
 ├── app.go                      # Lifecycle hooks (startup, domReady, shutdown)
 ├── internal/
@@ -88,7 +88,7 @@ lyra/
 
 ## Architecture
 
-Lyra follows a service-oriented architecture where each backend module runs as an independent Go service bound to the frontend via Wails RPC.
+aether follows a service-oriented architecture where each backend module runs as an independent Go service bound to the frontend via Wails RPC.
 
 ```
 ┌─────────────────────────────────────┐
