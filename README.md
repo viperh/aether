@@ -109,4 +109,4 @@ Real-time updates are pushed from Go to the frontend via Wails events (`sysmon:s
 
 ## License
 
-This project is not yet licensed. Contact the author for usage terms.
+MIT
